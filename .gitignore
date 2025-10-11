@@ -1,0 +1,64 @@
+# MCP Private Configuration - DO NOT SHARE
+
+# Sensitive configuration files
+claude_desktop_config.json
+*_config.json
+*.local.json
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# GitHub tokens and API keys
+*token*
+*secret*
+*key*
+.secrets/
+
+# Personal data directories
+personal/
+private/
+data/
+databases/
+
+# npm and node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Archive files
+*.7z
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test artifacts
+test-output/
+coverage/
+.nyc_output/
