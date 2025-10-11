@@ -1,0 +1,33 @@
+# MCP vs n8n
+
+## What You Wanted:
+- Connect your AI to tools
+- Keep it private
+- Automate workflows
+
+## n8n Way:
+- Self-host n8n server
+- Configure workflows in GUI
+- Maintain infrastructure
+- Secure webhooks
+- Keep it updated
+- ~500MB+ footprint
+
+## MCP Way:
+- Install npm packages
+- Drop config file in LLM
+- Done
+- ~50MB total
+
+## When You'd Actually Need n8n:
+- Complex multi-step workflows with branching logic
+- Need to connect 10+ different services
+- Visual workflow debugging is critical
+- You're building something for non-technical users
+
+## For Your Use Case (AI + tools):
+MCP is literally designed for this. n8n is overkill.
+
+## You Can Always Add n8n Later
+Start with MCP. If you hit a wall, then add n8n.
+Don't start with complexity you don't need yet.

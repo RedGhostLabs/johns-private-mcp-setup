@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "mcp-server-filesystem",
+      "args": [
+        "/Users/YOUR_USERNAME/Documents"
+      ]
+    },
+    "fetch": {
+      "command": "mcp-server-fetch"
+    },
+    "github": {
+      "command": "mcp-server-github",
+      "env": {
+        "GITHUB_TOKEN": "your-github-personal-access-token-here"
+      }
+    },
+    "sqlite": {
+      "command": "mcp-server-sqlite",
+      "args": [
+        "/Users/YOUR_USERNAME/databases"
+      ]
+    }
+  }
+}
