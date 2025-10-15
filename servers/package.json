@@ -1,0 +1,18 @@
+{
+  "name": "@redghost/mcp-server-custom",
+  "version": "1.0.0",
+  "description": "Red Ghost Defense custom MCP server for local workflows",
+  "main": "index.js",
+  "bin": {
+    "mcp-server-redghost-custom": "index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "redghost",
+    "custom-server"
+  ],
+  "author": "Red Ghost Defense",
+  "license": "MIT",
+  "dependencies": {}
+}
